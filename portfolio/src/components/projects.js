@@ -3,7 +3,7 @@ const Projects = [
     title: "Employee_Tracker",
     github: "https://github.com/Zi-on/Employee_Tracker",
     deployed: "N/A",
-    img: "",
+    img: "../pictures/employee.jpg",
   },
   {
     title: "Crypto Cash News",
