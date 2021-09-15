@@ -4,13 +4,8 @@ export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      <p>I am a Web Developer who is looking to learn anything & everything coding/programming related. I am currently enrolled in a UTSA coding bootcamp & will be a certified full stack web developer by October of 2021. Through my experience with this bootcamp me & two fellow class mates created a crypto currency news website that grabs data from apis to fill the page with crypto stock information as well as news articles pertaining to the crypto selected. I have found myself prevailing in back end functionality & Java-scripting.
+          
       </p>
     </div>
   );
