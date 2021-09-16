@@ -9,9 +9,9 @@ import "../styles/Portfolio.css"
 export default function Portfoio({ projects }) {
   
   return (
-    <div className="portfolio">
+    <div>
       <h1 className="header">Portfolio</h1>
-      <Row >
+      <Row className="portfolio">
       {projects.map((project) => (
         <Card style={{ width: "18rem" }} className="project">
           <Card.Img variant="top" src={project.img} />

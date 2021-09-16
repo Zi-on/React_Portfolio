@@ -1,5 +1,8 @@
 .project {
-    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: center;
+   
 }
 
 .background {
@@ -10,4 +13,9 @@
 
 .top {
     height:8vh
+}
+
+.portfolio {
+    position: flex;
+    align-items: center;
 }
