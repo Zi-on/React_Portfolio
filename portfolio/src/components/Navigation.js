@@ -7,12 +7,7 @@ function Navigation({ currentPage, handlePageChange}) {
     return (
         <Navbar bg="light" variant="light">
         <Container>
-        <Navbar.Brand href="#home"
-        onClick={() => handlePageChange('Home')}
-        className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Zion Flores
-        </Navbar.Brand>
+        <Navbar.Brand href="#home"> Zion Flores</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="#about-me"
           onClick={() => handlePageChange('About')}

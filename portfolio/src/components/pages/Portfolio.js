@@ -40,17 +40,3 @@ export default function Portfoio({ projects }) {
   );
 }
 
-/* <div>
-<h1>Portfoio</h1>
-  {projects.map((project) => (
-<Card style={{ width: '18rem' }}>
-<Card.Img variant="top" src={project.img} />
-<Card.Body>
- <Card.Title>{project.title}</Card.Title>
- <Image href={project.github} src={project.git} width={40} height={40} roundedCircle />
- <Button variant="primary">{project.deployed}</Button>
-</Card.Body>
-</Card>
-  ))}
-</div>
-); */
