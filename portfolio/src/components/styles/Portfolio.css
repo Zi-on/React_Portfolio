@@ -1,0 +1,9 @@
+.project {
+    align-items: center;
+    margin: 1rem;
+}
+
+.portfolio {
+    background-image: url(../pictures/compute.png)
+}
+

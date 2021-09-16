@@ -16,24 +16,24 @@ export default function Contact() {
 
   return (
     <div>
-      <h1>Contact</h1>
-        <div className="container">
+      <h1 className="head">Contact</h1>
+        <div className="container contact-form">
             <form onSubmit={sendEmail}>
-                <div className="row pt-5 mx-auto">
-                    <div className="col-8 form-group mx-auto">
+                <div className="row  ">
+                    <div className="col-8 form-group ">
                         <input type="text" className="form-control" placeholder="name" name="name"/>
                     </div>
-                    <div className="col-8 form-group mx-auto">
+                    <div className="col-8 form-group ">
                         <input type="email" className="form-control" placeholder="email" name="email"/>
                     </div>
-                    <div className="col-8 form-group mx-auto">
+                    <div className="col-8 form-group ">
                         <input type="text" className="form-control" placeholder="(subject)" name="subject"/>
                     </div>
-                    <div className="col-8 form-group mx-auto">
+                    <div className="col-8 form-group ">
                         <textarea className="form-control" cols="30" rows="8" placeholder="Your Message" name="message"></textarea>
                     </div>
-                    <div className="col-8 pt-3 mx-auto">
-                        <input type="submit" className="btn btn-info" value="Send Message"/>
+                    <div className="col-8 pt-3 ">
+                        <input type="submit" className="btn btn-danger" value="Send Message"/>
                     </div>
 
 
