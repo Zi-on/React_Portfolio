@@ -6,11 +6,11 @@ import './styles/Portfolio.css'
 
 function Navigation({ currentPage, handlePageChange}) {
     return (
-        <Navbar bg="light" variant="light">
+        <Navbar className="top" bg="light" variant="light">
         <Container>
         <Navbar.Brand href="#home"> Zion Flores</Navbar.Brand>
-        <Nav className="me-auto navigation">
-          <Nav.Link href="#about-me"
+        <Nav className="me-auto">
+          <Nav.Link lg="3" href="#about-me"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
           >About me</Nav.Link>

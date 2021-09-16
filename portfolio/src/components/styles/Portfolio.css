@@ -1,9 +1,13 @@
 .project {
     align-items: center;
-    margin: 1rem;
 }
 
-.portfolio {
-    background-image: url(../pictures/compute.png)
+.background {
+    position: relative;
+    background-image: url(../pictures/compute.png);
+    min-height: 92vh;
 }
 
+.top {
+    height:8vh
+}

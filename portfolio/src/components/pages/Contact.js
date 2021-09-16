@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import emailjs from 'emailjs-com';
 
 export default function Contact() {
@@ -16,7 +16,7 @@ export default function Contact() {
 
   return (
     <div>
-      <h1 className="head">Contact</h1>
+      <h1 className="header">Contact</h1>
         <div className="container contact-form">
             <form onSubmit={sendEmail}>
                 <div className="row  ">

@@ -1,0 +1,39 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    width: 2.5rem;
+    
+}
+
+.youtube {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+.linkedin {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.github {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.linkedin:hover {
+    outline: none;
+    border-color: #3700ff;
+    box-shadow: 0 0 10px #2600ff; 
+}
+
+.youtube:hover {
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.github:hover {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 0 0 10px #000000;
+}

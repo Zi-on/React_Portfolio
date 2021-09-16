@@ -10,7 +10,7 @@ export default function Portfoio({ projects }) {
   
   return (
     <div className="portfolio">
-      <h1 className="header">Portfoio</h1>
+      <h1 className="header">Portfolio</h1>
       <Row >
       {projects.map((project) => (
         <Card style={{ width: "18rem" }} className="project">

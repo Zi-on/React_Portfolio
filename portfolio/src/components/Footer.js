@@ -2,10 +2,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import Image from "react-bootstrap/Image";
-import githubEmoji from "./pictures/github.png";
-import linkedinEmoji from "./pictures/linkedin.png";
-import youtubeEmoji from "./pictures/youtube.png";
+
+import './styles/Footer.css'
+import {FaLinkedin, FaYoutube, FaGithub} from "react-icons/fa"
 
 function Footer() {
         const linkedinClick = () => {
@@ -19,16 +18,16 @@ function Footer() {
         }
         
   return (
-    <Container>
+    <Container className="d-flex justify-content-center footer">
       <Row>
-        <Col xs={6} md={4}>
-          <Image onClick={linkedinClick} src={linkedinEmoji} width={70} height={70} roundedCircle />
+        <Col >
+          <FaLinkedin className="linkedin" onClick={linkedinClick} size={50} style={{color: 'blue'}} roundedCircle />
         </Col>
-        <Col xs={6} md={4}>
-          <Image onClick={githubClick} src={githubEmoji} roundedCircle />
+        <Col >
+          <FaGithub className="github" onClick={githubClick} size={50} roundedCircle />
         </Col>
-        <Col xs={6} md={4}>
-          <Image onClick={youtubeClick} src={youtubeEmoji} width={70} height={70} roundedCircle />
+        <Col >
+          <FaYoutube className="youtube" onClick={youtubeClick} size={50} style={{color: 'red'}} roundedCircle />
         </Col>
       </Row>
     </Container>
