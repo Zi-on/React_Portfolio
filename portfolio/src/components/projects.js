@@ -1,9 +1,9 @@
-import employeeImg from '../pictures/employee.jpg';
-import cryptoImg from '../pictures/cryptocurrency.png';
-import githubEmoji from "../pictures/github.png";
-import weatherImg from "../pictures/Weather-icon.png";
-import techImg from "../pictures/tech.png";
-import sheduleImg from "../pictures/wrkday.png"
+import employeeImg from './pictures/employee.jpg';
+import cryptoImg from './pictures/cryptocurrency.png';
+import githubEmoji from "./pictures/github.png";
+import weatherImg from "./pictures/Weather-icon.png";
+import techImg from "./pictures/tech.png";
+import sheduleImg from "./pictures/wrkday.png"
 
 const Projects = [
   {

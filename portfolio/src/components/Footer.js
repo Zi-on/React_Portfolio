@@ -3,9 +3,9 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
-import githubEmoji from "../pictures/github.png";
-import linkedinEmoji from "../pictures/linkedin.png";
-import youtubeEmoji from "../pictures/youtube.png";
+import githubEmoji from "./pictures/github.png";
+import linkedinEmoji from "./pictures/linkedin.png";
+import youtubeEmoji from "./pictures/youtube.png";
 
 function Footer() {
         const linkedinClick = () => {
