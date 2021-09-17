@@ -6,7 +6,7 @@ import "../styles/Portfolio.css"
 
 
 
-export default function Portfoio({ projects }) {
+export default function Portfolio({ projects }) {
   
   return (
     <div>
